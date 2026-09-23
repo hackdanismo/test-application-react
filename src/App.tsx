@@ -1,5 +1,8 @@
 import "@hackdanismo/component-library-react/component-library-react.css";
-import { SectionIntro, PurchaseFlow } from "@hackdanismo/component-library-react";
+import {
+  SectionIntro,
+  PurchaseFlow,
+} from "@hackdanismo/component-library-react";
 
 const packages = [
   {
@@ -12,13 +15,13 @@ const packages = [
     featuresTitle: "ADSL FEATURES",
     features: [
       {
-        label: "Download speeds up to 20Mbps"
+        label: "Download speeds up to 20Mbps",
       },
       {
-        label: "Low cost service"
+        label: "Low cost service",
       },
       {
-        label: "Over 99% UK coverage"
+        label: "Over 99% UK coverage",
       },
     ],
   },
@@ -32,13 +35,13 @@ const packages = [
     featuresTitle: "SoGEA FEATURES",
     features: [
       {
-        label: "Download speeds up to 80Mbps"
+        label: "Download speeds up to 80Mbps",
       },
       {
-        label: "Fibre to the cabinet"
+        label: "Fibre to the cabinet",
       },
       {
-        label: "95% UK coverage"
+        label: "95% UK coverage",
       },
     ],
   },
@@ -52,13 +55,13 @@ const packages = [
     featuresTitle: "Ultrafast Fibre Features",
     features: [
       {
-        label: "Download speeds up to 1Gbps"
+        label: "Download speeds up to 1Gbps",
       },
       {
-        label: "Dedicated fibre to the premises"
+        label: "Dedicated fibre to the premises",
       },
       {
-        label: "Fastest broadband available"
+        label: "Fastest broadband available",
       },
     ],
   },
@@ -66,10 +69,13 @@ const packages = [
 
 function App() {
   return (
-    <main role="main" className="min-h-screen flex items-center justify-center">
+    <main
+      role="main"
+      className="min-h-screen flex items-center justify-center"
+    >
       <section>
-        <div class="container">
-          <div class="py-10">
+        <div className="container">
+          <div className="py-10">
             <SectionIntro
               title="Business Broadband"
               subtitle="Choosing the right type of internet broadband to support your business..."
@@ -77,14 +83,15 @@ function App() {
               secondaryDescription="Our team of business broadband specialists are here to deliver the right network and internet solutions for your business."
             />
           </div>
-          <PurchaseFlow 
+
+          <PurchaseFlow
             packages={packages}
             columns={3}
           />
         </div>
       </section>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
