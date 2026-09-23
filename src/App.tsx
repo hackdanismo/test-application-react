@@ -12,7 +12,13 @@ const packages = [
     featuresTitle: "ADSL FEATURES",
     features: [
       {
-        label: "Low cost service",
+        label: "Download speeds up to 20Mbps"
+      },
+      {
+        label: "Low cost service"
+      },
+      {
+        label: "Over 99% UK coverage"
       },
     ],
   },
@@ -26,21 +32,33 @@ const packages = [
     featuresTitle: "SoGEA FEATURES",
     features: [
       {
-        label: "Fibre to the cabinet",
+        label: "Download speeds up to 80Mbps"
+      },
+      {
+        label: "Fibre to the cabinet"
+      },
+      {
+        label: "95% UK coverage"
       },
     ],
   },
   {
-    id: "sogea",
-    name: "SoGEA broadband",
-    title: "SoGEA",
-    accentText: "broadband",
+    id: "ultrafast",
+    name: "Ultrafast fibre",
+    title: "Ultrafast fibre",
+    accentText: "",
     connectionFee: 0,
-    monthlyPrice: 24.95,
-    featuresTitle: "SoGEA FEATURES",
+    monthlyPrice: 26.95,
+    featuresTitle: "Ultrafast Fibre Features",
     features: [
       {
-        label: "Fibre to the cabinet",
+        label: "Download speeds up to 1Gbps"
+      },
+      {
+        label: "Dedicated fibre to the premises"
+      },
+      {
+        label: "Fastest broadband available"
       },
     ],
   },
