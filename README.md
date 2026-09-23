@@ -64,3 +64,31 @@ $ nvm install
 # Use the recommended Node version in the .nvmrc
 $ nvm use
 ```
+
+## Tailwind
+The component library has `Tailwind` built-in. The inclusion of `Tailwind` in the application is completely optional.
+
+```shell
+$ npm install tailwindcss @tailwindcss/vite
+```
+
+Once installed, update the `vite.config.ts` file:
+
+```typescript
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+});
+```
+
+Update the `src/index.css` stylesheet to import `Tailwind`:
+
+```css
+@import "tailwindcss";
+```
