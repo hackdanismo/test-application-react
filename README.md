@@ -26,6 +26,16 @@ $ npm run dev
 
 The application should run here: [http://localhost:5173/](http://localhost:5173/).
 
+## Screenshots
+Cards:
+<img width="1725" height="879" alt="Screenshot 2026-09-24 at 18 36 08" src="https://github.com/user-attachments/assets/515da840-2b6c-4c06-b03a-c721104092d9" />
+
+Order screen:
+<img width="1719" height="902" alt="Screenshot 2026-09-24 at 18 36 36" src="https://github.com/user-attachments/assets/884b1b8a-a8e2-4ba8-acc6-500daf82c910" />
+
+Order confirmation:
+<img width="1725" height="893" alt="Screenshot 2026-09-24 at 18 37 43" src="https://github.com/user-attachments/assets/6108d750-acd6-4e97-90d0-3e7ccd67caaa" />
+
 ## Component Library
 We are using a `component library` built for this project and hosted on the `npm registry`. To install the `component-library-react` project in a `React` project using `TypeScript`:
 
