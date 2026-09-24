@@ -12,15 +12,20 @@ const packages = [
     accentText: "broadband",
     connectionFee: 0,
     monthlyPrice: 9.99,
+    secondaryActionLabel: "Explore ADSL",
     featuresTitle: "ADSL FEATURES",
     features: [
       {
+        id: "speed",
         label: "Download speeds up to 20Mbps",
+        highlighted: true,
       },
       {
+        id: "cost",
         label: "Low cost service",
       },
       {
+        id: "coverage",
         label: "Over 99% UK coverage",
       },
     ],
@@ -32,15 +37,20 @@ const packages = [
     accentText: "broadband",
     connectionFee: 0,
     monthlyPrice: 24.95,
+    secondaryActionLabel: "Explore SoGEA",
     featuresTitle: "SoGEA FEATURES",
     features: [
       {
+        id: "speed",
         label: "Download speeds up to 80Mbps",
+        highlighted: true,
       },
       {
+        id: "cabinet",
         label: "Fibre to the cabinet",
       },
       {
+        id: "coverage",
         label: "95% UK coverage",
       },
     ],
@@ -52,15 +62,20 @@ const packages = [
     accentText: "",
     connectionFee: 0,
     monthlyPrice: 26.95,
+    secondaryActionLabel: "Explore Fibre",
     featuresTitle: "Ultrafast Fibre Features",
     features: [
       {
+        id: "speed",
         label: "Download speeds up to 1Gbps",
+        highlighted: true,
       },
       {
+        id: "dedicated",
         label: "Dedicated fibre to the premises",
       },
       {
+        id: "fastest",
         label: "Fastest broadband available",
       },
     ],
